@@ -10,7 +10,7 @@ export const profile = {
     'I am an AI researcher and Machine Learning Engineer with a strong foundation in Machine Learning, Deep Learning, Computer Vision and Natural Language Processing. My research focuses on developing intelligent systems that bridge cutting-edge AI techniques with practical, real-world applications.',
   aboutExtra:
     'My work spans hidden-target detection and optical-infrared image fusion for defence, AI-driven green-flocculant synthesis for mine-effluent treatment, and situation-aware cobots for post-disaster response. I am currently pursuing an Integrated PhD (IDDP) at AcSIR — CSIR-CSIO, with prior research at IIT Indore, DRDO (IRDE), IIT (ISM) Dhanbad and IIIT Una, and I actively build developer communities as a Co-Organiser at GDG Ludhiana.',
-  heroImg: img('hero.jpg'),
+  heroImg: img('profile_standing.jpg'),
   candidImg: img('candid.jpg'),
   cv: './Abhishek-Gautam-CV.pdf',
   email: 'gautam.abhishek7100@gmail.com',
@@ -147,6 +147,7 @@ export const confGallery = [
 ]
 
 export const talks = [
+  { title: 'Computational Thinking & AI in Real-World Contexts', role: 'Guest Lecture · SGGS Collegiate Public School, Sector 26, Chandigarh · Jun 2026' },
   { title: 'Bharat Tech Xperience Hackathon', role: 'Mentor' },
   { title: 'Smart Hackathon 2023', role: 'Mentor' },
   { title: '“Build an App with Flutter”', role: 'Guest Lecture · GDSC, SBSSU' },
@@ -156,6 +157,7 @@ export const talks = [
 ]
 
 export const talkGallery = [
+  img('ctai_group.jpg'), img('ctai_activity.jpg'), img('ctai_panel.jpg'),
   img('talk_1.jpg'), img('talk_2.jpg'), img('talk_3.jpg'), img('talk_4.jpg'),
   img('talk_5.jpg'), img('talk_6.jpg'), img('talk_7.jpg'),
 ]
